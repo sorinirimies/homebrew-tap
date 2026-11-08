@@ -8,23 +8,23 @@ class Nuance < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.1/nuance-aarch64-apple-darwin.tar.gz"
-      sha256 "835d62acba64acdfcae7a7f40399aedd056eca18a84ec8f68f0757493858b50d"
+      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.2/nuance-aarch64-apple-darwin.tar.gz"
+      sha256 "77d088ec212e057cb8358f7c62d0f3ef7d0898a3e42f49f04e61971aa16a69f7"
     end
     on_intel do
-      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.1/nuance-x86_64-apple-darwin.tar.gz"
-      sha256 "aad01a648339cc021b5f66e2acc84f279ff56b32ec8d12246d4a542cccf8e636"
+      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.2/nuance-x86_64-apple-darwin.tar.gz"
+      sha256 "a9223fe530498263aaefda5559f95e121722612768a3b77765e1b800888f5a7e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.1/nuance-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f5c48c3b0b8e1d28b318bd3aaf287090f8530a404972bfedb457559349bd3f1a"
+      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.2/nuance-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "391225013b2f94fc565c3beb30169eacb71b33415c25e2b1beded61d4acb8494"
     end
     on_intel do
-      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.1/nuance-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0703db2903bd6ddaa0717ee84ea2af1bcd42123c7cb562ef214b56ca6729440f"
+      url "https://github.com/sorinirimies/nuance/releases/download/v0.11.2/nuance-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a950e8eb4ef992d1e9b5bbae47f9017fc9945691b6d8a2cd7b6b1824bafea730"
     end
   end
 
