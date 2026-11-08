@@ -2,7 +2,6 @@
 class Nuance < Formula
   desc "Themeable, git-aware Nushell prompt with a live-preview theme picker"
   homepage "https://github.com/sorinirimies/nuance"
-  version "0.11.0"
   license "MIT"
 
   depends_on "nushell"
